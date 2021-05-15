@@ -1,0 +1,170 @@
+body{
+	background-color: rgb(200 500 300);
+	color: black;
+	font-size: 20px; 
+	font-family: Comic Sans Ms;
+	width: 100%;
+	margin: 0px;
+	border-radius: 1px solid #cc5893;
+}
+caption{
+	text-transform: capitalize;
+	text-decoration: underline;
+	color: pink;
+}
+
+span a{
+	text-transform: uppercase;
+	float: right;
+	background-color: maroon;
+}
+
+#deb
+{
+	width: 100%;
+	background-color: purple;
+	font-size: 70px;
+	font-style: italic;
+	color:#ffee;
+	margin : auto;
+	text-transform: capitalize;
+	display: flex;
+	margin-top: none;
+	justify-content:center;
+	height: 100px;
+	margin-left: 0px;
+
+}
+h2{
+	font-size: 50px;
+	text-transform: capitalize;
+	color: tomato;
+	width: 50%;
+}
+
+img
+{
+	width: 400px;
+	height: 20%;
+	padding: 10px;
+	border: 2px solid tomato;
+	display: inline-block;
+	box-shadow: 0px 0px 17px #BBB;
+}
+#img1{
+	margin-bottom:10px; 
+}
+
+a{
+	outline: none;
+	padding: inline-block;
+	text-decoration:none;
+	text-align: center;
+}
+a:link{
+	color: red;
+}
+a:visited{
+	color: white;
+}
+a:focus{
+	border-bottom: 1px solid orange;
+	background:aqua;
+}
+a:hover{
+
+	border-bottom: 2px solid orange;
+}
+a:active{
+	background:purple;
+	color: green;
+
+}
+.art
+{
+	background-color: fuchsia;
+	color: black; 
+}
+.box{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.box1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+td
+{
+	border: 2px,solid,maroon;
+}
+
+table
+{
+	border-collapse: collapse;
+	padding: 2px;
+}
+
+footer{
+	background-color: tomato;
+	height: 140px;
+	margin: 0px;
+	text-align: center;
+}
+fieldset{
+	border-radius: 5%;
+}
+#table{
+	display: table;
+	margin: 0 auto;
+}
+
+.images{
+	width: 100px;
+}
+
+#dance2{
+	height: 400px;
+}
+nav{
+	width: 100%;
+	height: 90px;
+	background-color: #424558;
+	padding-top: 30px;
+}
+nav li{
+	list-style-type: none;
+	float: left;
+}
+nav ul{
+margin: 0px;
+padding: 0px;
+}
+
+nav a{
+	padding: 20px 30px;
+}
+#lien1, #lien2, #lien3,#lien4,#lien0{
+color: yellow;
+text-transform : uppercase;
+margin-top: none;
+}
+
+#sec1{
+	background-color: #fe4558;
+}
+#sec2{
+	background-color: green;
+}
+.present{
+	width: 25%;
+	border-radius: 5%;
+	background-color:tomato;
+	color: silver;
+}
+.prepou{
+	width: 25%;
+}
